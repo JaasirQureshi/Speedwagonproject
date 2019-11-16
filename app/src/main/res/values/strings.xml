@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Speedwagon</string>
+    <string name="welcom_vehicle_tab">Drip stains when you switch lanes.</string>
+    <string name="elderado_black_info">1984 Cadillac Elderado</string>
+    <string name="elderado_black_mpg">MPG: 16 City/ 20 Highway</string>
+    <string name="elderado_black_color">Exterior: Candy Paint Black</string>
+   <string name="LoginMenu">Login</string>
+    <string name="Login">Login</string>
+    <string name="Contact">Contact Us</string>
+    <string name="elderado_black_engine">Engine and Transmission: 8 cyl, 4.1 L, Automatic 4-spd</string>
+</resources>

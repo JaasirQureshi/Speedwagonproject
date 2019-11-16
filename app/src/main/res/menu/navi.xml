@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/vehicle"
+        android:title="Browse Vehicles"></item>
+
+    <item
+        android:id="@+id/mechanic"
+        android:title="Mechanic"></item>
+
+    <item
+        android:id="@+id/service"
+        android:title="Services"></item>
+
+</menu>
