@@ -72,7 +72,13 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return false;
         }
+        else if(id == R.id.Contact){
+            Intent intents = new Intent(MainActivity.this, ContactActivity.class);
+            startActivity(intents);
+            return false;
+        }
 
         return super.onOptionsItemSelected(item);
     }
+
 }

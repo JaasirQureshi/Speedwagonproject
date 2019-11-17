@@ -7,5 +7,14 @@
    <string name="LoginMenu">Login</string>
     <string name="Login">Login</string>
     <string name="Contact">Contact Us</string>
+    <string name="Contactview">Contact us
+        2813308004
+
+        3737 S Highway 6 Houston TX 74586
+
+        email- speewagon@sales.com
+
+
+    </string>
     <string name="elderado_black_engine">Engine and Transmission: 8 cyl, 4.1 L, Automatic 4-spd</string>
 </resources>
