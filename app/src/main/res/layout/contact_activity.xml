@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#025DB1"
+    android:backgroundTint="#00017294"
     tools:context=".ContactActivity">
 
 
@@ -11,7 +13,38 @@
             android:id="@+id/ContactView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/Contactview" />
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/Contactview"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="-189dp"
+            tools:layout_editor_absoluteY="-85dp" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="408dp"
+            android:layout_height="88dp"
+            android:background="#000000"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ContactView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:inputType="textPersonName"
+            android:text="@string/Contactview"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+            app:layout_constraintHorizontal_bias="0.215"
+            app:layout_constraintStart_toStartOf="@+id/toolbar2"
+            tools:layout_editor_absoluteY="27dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
