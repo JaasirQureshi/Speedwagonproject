@@ -16,9 +16,10 @@
             android:background="@color/colorPrimary"
             android:backgroundTint="@color/colorPrimary"
             android:text="@string/Contactview"
-            android:textColor="@android:color/background_light"
-            tools:layout_editor_absoluteX="-189dp"
-            tools:layout_editor_absoluteY="-85dp" />
+            android:textColor="#FCFCFC"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="-65dp"
+            tools:layout_editor_absoluteY="-16dp" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar2"
@@ -32,6 +33,21 @@
             app:layout_constraintTop_toTopOf="@+id/ContactView"
             app:layout_constraintVertical_bias="0.0" />
 
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="432dp"
+            android:layout_height="142dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/Adresses"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ContactView"
+            app:layout_constraintHorizontal_bias="0.147"
+            app:layout_constraintStart_toStartOf="@+id/ContactView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+            app:layout_constraintVertical_bias="0.089" />
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
@@ -39,12 +55,27 @@
             android:ems="15"
             android:inputType="textPersonName"
             android:text="@string/Contactview"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
             app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-            app:layout_constraintHorizontal_bias="0.215"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/toolbar2"
-            tools:layout_editor_absoluteY="27dp" />
+            app:layout_constraintTop_toTopOf="@+id/ContactView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="425dp"
+            android:layout_height="658dp"
+            android:background="@drawable/my_gradient_drawable"
+            app:layout_constraintBottom_toBottomOf="@+id/ContactView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/ContactView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+            app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
